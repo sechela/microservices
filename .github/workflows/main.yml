@@ -11,3 +11,5 @@ jobs:
 
       - name: Say Hello
         run: mkdir userservices
+      - name: Check directory
+        run: ls -l
